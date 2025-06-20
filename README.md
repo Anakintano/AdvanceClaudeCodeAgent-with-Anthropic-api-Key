@@ -35,18 +35,6 @@ pip install langchain langchain-anthropic langchain-core anthropic
 
 ---
 
-## 🛠️ Project Structure
-
-```
-.
-├── agent.py            # Agent + REPL + validator implementation
-├── tool.py             # Defines REPL and validation tools
-└── examples/
-    ├── prime_analysis.py
-    ├── sales_analysis.py
-    ├── sorting_searching.py
-    ├── ml_pipeline.py
-```
 
 ---
 
@@ -57,34 +45,13 @@ pip install langchain langchain-anthropic langchain-core anthropic
    ```bash
    export ANTHROPIC_API_KEY="your_claude_key_here"
    ```
-2. Choose an example, e.g.:
-
-   ```bash
-   python examples/prime_analysis.py
-   ```
+2. choose a codeing example
 3. Watch the loop: **think → write code → run → validate**
 4. View output and logs in your console
 
 ---
 
-## 🧪 Examples Included
 
-1. **Prime Number Analysis**
-
-   * List primes 1–200, sum them, find twin primes, average/log gaps
-2. **Sales Data Analysis**
-
-   * Build synthetic 24‑month product sales with seasonality
-   * Compute growth, trends, correlations, statistical summaries
-3. **Algorithm Suite**
-
-   * Code quicksort, mergesort, binary search
-   * Test edge cases, run benchmarks, find k‑th largest
-4. **ML Pipeline**
-
-   * Generate synthetic classification data
-   * Implement gradient‑descent classifier with k‑fold CV
-   * Evaluate accuracy, precision, recall
 
 ---
 
